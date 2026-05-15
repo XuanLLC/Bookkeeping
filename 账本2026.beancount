@@ -1,0 +1,63 @@
+* Options ; Beancount options
+
+option "title" "Xuan LLC"
+option "operating_currency" "USD" ; The main currencies you use
+
+** Accounts ; Open all the accounts you have
+; all dates are PST
+
+2026-04-14 open Assets:Budget:总预算 USD
+2026-04-29 open Income:Donation:赞助者0 USD
+
+** Opening Balances
+2026-04-29 * "Opening Balances"
+    Income:Donation:赞助者0				-50000.00 USD
+    Assets:Budget:总预算					50000.00 USD
+
+2026-04-14 open Expenses:Bounty:NovelBits
+
+2026-04-14 * "Bluetooth LE Unplugged - Starter Bundle"
+    Expenses:Bounty:NovelBits			149.00 USD
+    Assets:Budget:总预算					-149.00 USD
+
+2026-04-20 open Expenses:Bounty:Freelancer
+
+2026-04-20 * "Tech Realm @trlm0102: iOS app to sync text content between two users through Bluetooth Low Energy (BLE)"
+    Expenses:Bounty:Freelancer			250.00 USD
+    Assets:Budget:总预算					-250.00 USD
+
+2026-05-07 open Expenses:Bounty:GoDaddy
+
+2026-05-07 * "godaddy .COM 域名续费,全面版域名保护 - 续费"
+	Expenses:Bounty:GoDaddy				268.01 USD
+	Assets:Budget:总预算					-268.01 USD
+
+2026-05-10 open Expenses:Bounty:Amazon
+
+2026-05-10 * "Books * 4"
+	Expenses:Bounty:Amazon				140.13 USD
+    Assets:Budget:总预算					-140.13 USD
+
+2026-05-10 open Expenses:Bounty:Ebay
+
+2026-05-10 * "Android phone for testing: Samsung Galaxy A16 5G (128GB, 4GB) 6.7 inch Unlocked - NEW"
+	Expenses:Bounty:Ebay				118.24 USD
+	Assets:Budget:总预算					-118.24 USD
+
+2026-05-11 * "Tech Realm @kareemmaize: Redesign & Android Port"
+    Expenses:Bounty:Freelancer			2000.00 USD
+    Assets:Budget:总预算					-2000.00 USD
+
+2026-05-12 * "Android pad for testing: Tablet Android 15 Tablet 20GB RAM 64GB ROM 1TB TF 10 Inch Tablet 8-core 5000mAh"
+	Expenses:Bounty:Ebay				80.81 USD
+	Assets:Budget:总预算					-80.81 USD
+
+2026-05-15 * "Professional Email Pro Plus"
+	Expenses:Bounty:GoDaddy				11.74 USD
+	Assets:Budget:总预算					-11.74 USD
+
+2026-05-15 open Income:Donation:CitiAccount USD
+
+2026-05-15 * "citi 转到公司"
+	Income:Donation:CitiAccount			-100.00 USD
+	Assets:Budget:总预算					100.00 USD
