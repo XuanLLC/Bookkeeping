@@ -22,9 +22,9 @@ option "operating_currency" "USD" ; The main currencies you use
 
 2026-04-20 open Expenses:Bounty:Freelancer
 
-2026-04-20 * "Tech Realm @trlm0102: iOS app to sync text content between two users through Bluetooth Low Energy (BLE)"
-    Expenses:Bounty:Freelancer			250.00 USD
-    Assets:Budget:总预算					-250.00 USD
+2026-04-20 * "Tech Realm @trlm0102: iOS app to sync text content between two users through Bluetooth Low Energy (BLE) $35.06 + 256.05 + 7.97"
+    Expenses:Bounty:Freelancer			299.08 USD
+    Assets:Budget:总预算					-299.08 USD
 
 2026-05-07 open Expenses:Bounty:GoDaddy
 
@@ -32,9 +32,15 @@ option "operating_currency" "USD" ; The main currencies you use
 	Expenses:Bounty:GoDaddy				268.01 USD
 	Assets:Budget:总预算					-268.01 USD
 
+2026-05-07 open Expenses:Bounty:LegalZoom
+
+2026-05-07 * "services 169.67 + 249.00"
+	Expenses:Bounty:LegalZoom			418.67 USD
+	Assets:Budget:总预算					-418.67 USD
+
 2026-05-10 open Expenses:Bounty:Amazon
 
-2026-05-10 * "Books * 4"
+2026-05-10 * "Books * 4: 25.17+56.75+39.39+18.82"
 	Expenses:Bounty:Amazon				140.13 USD
     Assets:Budget:总预算					-140.13 USD
 
@@ -44,13 +50,39 @@ option "operating_currency" "USD" ; The main currencies you use
 	Expenses:Bounty:Ebay				118.24 USD
 	Assets:Budget:总预算					-118.24 USD
 
-2026-05-11 * "Tech Realm @kareemmaize: Redesign & Android Port"
-    Expenses:Bounty:Freelancer			2000.00 USD
-    Assets:Budget:总预算					-2000.00 USD
+2026-05-11 open Expenses:Bounty:Goodwill
+
+2026-05-11 * "Bike & Helmet"
+    Expenses:Bounty:Goodwill			122.50 USD
+    Assets:Budget:总预算					-122.50 USD
+
+2026-05-11 * "Kareem M @kareemmaize: Redesign & Android Port $22.80+2107.68"
+    Expenses:Bounty:Freelancer			2130.48 USD
+    Assets:Budget:总预算					-2130.48 USD
 
 2026-05-12 * "Android pad for testing: Tablet Android 15 Tablet 20GB RAM 64GB ROM 1TB TF 10 Inch Tablet 8-core 5000mAh"
 	Expenses:Bounty:Ebay				80.81 USD
 	Assets:Budget:总预算					-80.81 USD
+
+2026-05-11 * "Leather jacket"
+    Expenses:Bounty:Goodwill			36.90 USD
+    Assets:Budget:总预算					-36.90 USD
+
+2026-05-11 open Expenses:Bounty:Apple
+
+2026-05-11 * "Developer Program"
+	Expenses:Bounty:Apple			99.00 USD
+    Assets:Budget:总预算					-99.00 USD
+
+2026-05-12 * "HASSETT ACE HARDWARE P PALO ALTO CA: tool to fasten bike seat"
+	Expenses:Bounty:Goodwill			13.16 USD
+    Assets:Budget:总预算					-13.16 USD
+
+2026-05-14 open Expenses:Bounty:LocalStore USD
+
+2026-05-14 * "PALO ALTO BICYCLES: bike seat & glasses"
+	Expenses:Bounty:LocalStore				368.75 USD
+	Assets:Budget:总预算					-368.75 USD
 
 2026-05-15 * "Professional Email Pro Plus"
 	Expenses:Bounty:GoDaddy				11.74 USD
