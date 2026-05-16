@@ -80,7 +80,7 @@ option "operating_currency" "USD" ; The main currencies you use
 
 2026-05-14 open Expenses:Bounty:LocalStore USD
 
-2026-05-14 * "PALO ALTO BICYCLES: bike seat & glasses"
+2026-05-14 * "PALO ALTO BICYCLES: bike seat & 护目风镜 $261！"
 	Expenses:Bounty:LocalStore				368.75 USD
 	Assets:Budget:总预算					-368.75 USD
 
@@ -93,3 +93,7 @@ option "operating_currency" "USD" ; The main currencies you use
 2026-05-15 * "citi 转到公司"
 	Income:Donation:CitiAccount			-100.00 USD
 	Assets:Budget:总预算					100.00 USD
+
+2026-05-15 * "att 买了最便宜的安卓手机之一 三星A17，加入每月$60plan后免费，只付税"
+	Expenses:Bounty:LocalStore			-22.50 USD
+	Assets:Budget:总预算					22.50 USD
