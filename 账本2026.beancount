@@ -95,5 +95,21 @@ option "operating_currency" "USD" ; The main currencies you use
 	Assets:Budget:总预算					100.00 USD
 
 2026-05-15 * "att 买了最便宜的安卓手机之一 三星A17，加入每月$60plan后免费，只付税"
-	Expenses:Bounty:LocalStore			-22.50 USD
-	Assets:Budget:总预算					22.50 USD
+	Expenses:Bounty:LocalStore			22.50 USD
+	Assets:Budget:总预算					-22.50 USD
+
+2026-05-17 open Expenses:Bounty:差旅 USD
+
+2026-05-17 * "uber打车取测试设备：	17.18 + 28.05"
+	Expenses:Bounty:差旅					45.23 USD
+	Assets:Budget:总预算					-45.23 USD
+
+2026-05-17 open Expenses:Bounty:Social USD
+
+2026-05-17 * "X annual fee"
+	Expenses:Bounty:Social				84.00 USD
+	Assets:Budget:总预算					-84.00 USD
+
+2026-05-17 * "lunch at Taipan"
+	Expenses:Bounty:LocalStore			31.85 USD
+	Assets:Budget:总预算					-31.85 USD
